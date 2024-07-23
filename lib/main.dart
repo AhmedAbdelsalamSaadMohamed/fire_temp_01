@@ -239,7 +239,7 @@ class FirebaseAuthUIExample extends StatelessWidget {
             headerBuilder: headerIcon(Icons.sms_outlined),
             sideBuilder: sideIcon(Icons.sms_outlined),
           );
-        },
+        },      
         '/forgot-password': (context) {
           final arguments = ModalRoute.of(context)?.settings.arguments
               as Map<String, dynamic>?;
